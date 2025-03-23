@@ -6,10 +6,10 @@
 int main()
 {
     address daftarTugas = Nil, newNode = Nil;
-    Stack lacakTugas;   // Untuk menampung riwayat tugas yang telah dikerjakan, dengan tugas yang paling baru dikerjakan berada di atas
+    Stack lacakTugas; // Untuk menampung riwayat tugas yang telah dikerjakan, dengan tugas yang paling baru dikerjakan berada di atas
     Queue antrianTugas; // Untuk menampung tugas yang siap dikerjakan, dengan tugas terlama berada di depan
-    int pilihan;        // Untuk menyimpan pilihan menu yang diinput user
-    int tugas;          // Untuk menyimpan ID tugas yang diinput user
+    int pilihan; // Untuk menyimpan pilihan menu yang diinput user
+    int tugas; // Untuk menyimpan ID tugas yang diinput user
 
     createStack(&lacakTugas);
     createQueue(&antrianTugas);
@@ -17,12 +17,12 @@ int main()
     do
     {
         printf("\n=== Daftar Tugas ===\n");
-        printf("1. Tampilkan Daftar Tugas\n");                // SLL
-        printf("2. Tambah Tugas ke Daftar\n");                // SLL
-        printf("3. Hapus Tugas dari Daftar\n");               // SLL
-        printf("4. Masukkan Tugas ke Antrian\n");             // Queue
-        printf("5. Tampilkan Antrian Tugas\n");               // Queue
-        printf("6. Kerjakan Tugas\n");                        // Queue -> Stack
+        printf("1. Tampilkan Daftar Tugas\n"); // SLL
+        printf("2. Tambah Tugas ke Daftar\n"); // SLL
+        printf("3. Hapus Tugas dari Daftar\n"); // SLL
+        printf("4. Masukkan Tugas ke Antrian\n"); // Queue
+        printf("5. Tampilkan Antrian Tugas\n"); // Queue
+        printf("6. Kerjakan Tugas\n"); // Queue -> Stack
         printf("7. Tampilkan Tugas yang Sudah Dikerjakan\n"); // Stack
         printf("8. Keluar\n");
         printf("\nPilihan: ");
